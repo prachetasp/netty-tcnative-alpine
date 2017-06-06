@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git clone https://github.com/netty/netty-tcnative
+git clone https://github.com/prachetasp/netty-tcnative
 cd netty-tcnative
 git checkout tags/$NETTY_TCNATIVE_TAG
 mvn clean package
